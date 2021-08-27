@@ -5,6 +5,7 @@ html body{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    min-height: 100vh;
 }
 
 
@@ -72,9 +73,9 @@ button.btn:hover{
 
 .icons{
     text-align: right;
-    position: absolute;
+    position: relative;
     bottom: 20px;
-    right: 150px;
+    right: 100px;
 }
 
 
@@ -128,6 +129,7 @@ footer a:hover{
         background-size: cover;
         background-repeat: no-repeat;
         padding: 7% 7%;
+        min-height: 100vh;
     }
 
     header{
